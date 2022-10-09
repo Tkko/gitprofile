@@ -2,100 +2,116 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'tkko', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 6, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'thornike',
+    twitter: 'thornike_',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    website: 'https://arifszn.github.io',
+    medium: 'thornike',
+    dev: 'tornike',
+    website: 'https://tornike.dev',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'qurdadzze@gmail.com',
   },
   resume: {
-    fileUrl: 'resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://tornike.dev', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
+    'Flutter',
+    'Dart',
+    'Mobile Development',
+    'Angular',
+    'Web Development',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
-    'Bootstrap',
+    'Firebase',
+    'User Interface (UI)',
+    'User Experience (UX)',
+    'Mentorship',
+    'Communication',
   ],
   experiences: [
     {
-      company: 'Monstarlab Bangladesh',
-      position: 'Backend Engineer II',
-      from: 'September 2021',
+      company: 'Netguru',
+      position: 'Senior Flutter Engineer',
+      from: 'Nov 2021',
       to: 'Present',
     },
     {
-      company: 'My Offer 360 Degree',
-      position: 'Web Application Developer',
-      from: 'July 2019',
-      to: 'August 2021',
+      company: 'Dentos',
+      position: 'Senior Flutter Engineer',
+      from: 'Sep 2021',
+      to: 'Oct 2021',
+    },
+    {
+      company: 'MY.GE',
+      position: 'Application Development Team Lead',
+      from: 'Nov 2020',
+      to: 'Nov 2021',
+    },
+    {
+      company: 'MY.GE',
+      position: 'Flutter Developer',
+      from: 'Oct 2019',
+      to: 'Dec 2020',
+    },
+    {
+      company: 'MY.GE',
+      position: 'Frontend Developer',
+      from: 'Aug 2018',
+      to: 'Dec 2019',
+    },
+    {
+      company: 'Wepark.ge',
+      position: 'Android Developer',
+      from: 'Aug 2017',
+      to: 'Sep 2018',
+    },
+    {
+      company: 'Wepark.ge',
+      position: 'Junior Software Engineer',
+      from: 'May 2017',
+      to: 'July 2017',
     },
   ],
   education: [
     {
-      institution: 'American International University-Bangladesh',
-      degree: 'Bachelor of Science',
-      from: '2015',
-      to: '2019',
+      institution: 'Caucasus University',
+      degree: "Bachelor's degree, Computer Science",
+      from: '2013',
+      to: '2017s',
     },
-    {
-      institution: 'Cantonment College, Jessore',
-      degree: 'Higher Secondary Certificate (HSC)',
-      from: '2012',
-      to: '2014',
-    },
-    {
-      institution: 'Chowgacha Shahadat Pilot High School',
-      degree: 'Secondary School Certificate (SSC)',
-      from: '2007',
-      to: '2012',
-    },
+
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'thornike', // to hide blog section, keep it empty
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-    id: 'G-WLLB5E14M6', // Please remove this and use your own tag id or keep it empty
+    id: 'G-WK9R5DJ4M2', // Please remove this and use your own tag id or keep it empty
   },
   hotjar: {
-    id: '2617601', //  Please remove this and use your own id or keep it empty
+    id: '', //  Please remove this and use your own id or keep it empty
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'corporate',
+    defaultTheme: 'business',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme

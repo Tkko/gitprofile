@@ -63,7 +63,7 @@ const AvatarCard = ({ profile, loading, avatarRing, resume }) => {
             download
             rel="noreferrer"
           >
-            Download Resume
+            Learn more
           </a>
         )}
       </div>
